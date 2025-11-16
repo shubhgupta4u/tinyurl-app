@@ -1,0 +1,55 @@
+# ----------------------------
+# Go Echo REST API: go-rest-api
+# ----------------------------
+# Binaries
+go-rest-api/bin/
+go-rest-api/__debug_bin
+
+# Vendor folder
+go-rest-api/vendor/
+
+# IDE files
+go-rest-api/.vscode/
+go-rest-api/*.code-workspace
+
+# OS generated files
+go-rest-api/.DS_Store
+go-rest-api/*.exe
+go-rest-api/*.log
+
+# Logs folder
+go-rest-api/logs/*
+
+# Environment
+go-rest-api/.env
+
+# Go modules
+go-rest-api/go.sum
+# Optional: ignore go.mod if you want to track manually
+# go-rest-api/go.mod
+
+# ----------------------------
+# Angular Frontend: tinyurl-webapp
+# ----------------------------
+# Node modules
+tinyurl-webapp/node_modules/
+
+# Angular build
+tinyurl-webapp/dist/
+tinyurl-webapp/out-tsc/
+
+# Logs
+tinyurl-webapp/**/logs/*
+
+# IDE files
+tinyurl-webapp/.vscode/
+tinyurl-webapp/*.code-workspace
+
+# Environment files
+tinyurl-webapp/src/environments/*.ts
+
+# OS generated files
+tinyurl-webapp/.DS_Store
+
+# npm logs
+tinyurl-webapp/npm-debug.log*

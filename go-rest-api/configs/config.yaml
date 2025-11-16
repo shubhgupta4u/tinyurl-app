@@ -1,0 +1,7 @@
+database:
+  host: localhost
+  port: 5433
+  user: postgres
+  password: 12345678
+  dbname: tinyurl_app_db
+  sslmode: disable
